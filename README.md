@@ -5,8 +5,15 @@ Campus Event Reporting Prototype
 Campus Event Reporting System (Prototype)
 
 Project Description
-
-This is a prototype Campus Event Reporting System to follow up on the registration, attendance and feedback made by the students to college events. It exposes APIs, and reports, for event popularity, attendance rates and the top active students.
+This project is a Campus Event Reporting System built as part of a Campus Event Management Platform. It allows college staff to create and manage events, and students to register, check in, and give feedback. The system tracks event creation, registrations, attendance, and feedback, and provides reports on:
+Event popularity (registrations per event).
+Attendance percentage and average feedback.
+Student participation across events.
+Top active students.
+The prototype is implemented with FastAPI and SQLite, featuring:
+APIs for events, students, registration, attendance, and feedback.
+Reporting endpoints and SQL queries.
+Sample database schema and seed data for demonstration
 
 Features
 
